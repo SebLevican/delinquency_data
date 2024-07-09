@@ -35,8 +35,9 @@ Here's a simple example of how to structure your scoring calculations using the 
 
 ```python
 # Example code snippet within main() function
-scoring = GetScoring()
-data = scoring.getbase()
+    scoring = GetScoring()
+    data = scoring.getbase()
+    scoring.uploaddb(data)
 
 # Perform additional data processing and scoring logic here
 # e.g., calculate scoring metrics based on business rules
